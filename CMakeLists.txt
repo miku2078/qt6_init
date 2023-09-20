@@ -33,8 +33,8 @@ INCLUDE_DIRECTORIES(
 # add_subdirectory(lib/system_login)
 # add_subdirectory(lib/my_table)
 
-file(GLOB SRC_FILE ${PROJECT_SOURCE_DIR}/include/*.h)
-file(GLOB HEAD_FILE ${PROJECT_SOURCE_DIR}/src/*.cpp)
+file(GLOB SRC_FILE ${PROJECT_SOURCE_DIR}/src/*.cpp)
+file(GLOB HEAD_FILE ${PROJECT_SOURCE_DIR}/include/*.h)
 file(GLOB UI_FILE ${PROJECT_SOURCE_DIR}/ui/*.ui)
 file(GLOB QRC_FILE ${PROJECT_SOURCE_DIR}/qrc/*.qrc)
 
